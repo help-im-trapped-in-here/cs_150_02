@@ -19,8 +19,8 @@ public class LabProgram_RealEstate {
         estimatedMortgage = (double) (currentPrice * 0.00425);
 
         // Output the results
-        System.out.printf("This house is $%d. The change is $%f since last month.%n", currentPrice, priceChange);
-        System.out.printf("The estimated monthly mortgage is $%.1f.%n", estimatedMortgage);
+        System.out.printf("This house is $%d. The change is $%.0f since last month.%n", currentPrice, priceChange);
+        System.out.printf("The estimated monthly mortgage is $%.1f.%n", estimatedMortgage); 
 
 
     }
