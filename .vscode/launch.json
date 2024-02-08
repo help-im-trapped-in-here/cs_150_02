@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LabProgram_DrivingCosts",
+            "request": "launch",
+            "mainClass": "Labs.LabProgram_DrivingCosts",
+            "projectName": "cs_150_02_5ff7f195"
+        },
+        {
+            "type": "java",
             "name": "LabProgram_Calories",
             "request": "launch",
             "mainClass": "Labs.LabProgram_Calories",
