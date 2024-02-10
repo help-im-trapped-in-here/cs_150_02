@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CircleFormulas",
+            "request": "launch",
+            "mainClass": "CircleFormulas",
+            "projectName": "cs_150_02_5ff7f195"
+        },
+        {
+            "type": "java",
             "name": "LabProgram_DrivingCosts",
             "request": "launch",
             "mainClass": "Labs.LabProgram_DrivingCosts",
@@ -36,7 +43,9 @@
             "type": "java",
             "name": "Calc",
             "request": "launch",
+            "args": "${command:SpecifyProgramArgs}",
             "mainClass": "Calc",
+            "console": "internalConsole",
             "projectName": "cs_150_02_5ff7f195"
         },
         {
@@ -74,7 +83,8 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "console": "internalConsole"
+            "args": "${command:SpecifyProgramArgs}",
+            "console": "integratedTerminal"
         },
         {
             "type": "java",
